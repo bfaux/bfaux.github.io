@@ -1,103 +1,92 @@
-h1 {
-    color: #FFFFFF;
-}
+@charset "UTF-8";
 
-h2 {
-    color: #FFFFFF;
+/*This is the stylsheet for personal website*/
+* {
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
 }
 
 body {
-    background:#53a1b8;
+    background-color:#ffffff;
     font-family:Arial, Helvetica, sans-serif;
 }
 
-/*LAYOUT RULES*/
-
-header {
-    padding: 0.625em 5%;
-    font-family:Futura,"Trebuchet MS",Arial, sans-serif;
-    font-weight:400;
-    color:#53a1b8;
+p {
+    font-size:16px;
 }
 
-nav {
-    background:#53a1b8;
-    padding:0.625em 5%;
+img {
+    width:35%;
+    border:3px solid #cccccc;
+    margin: 5px 5px 5px 5px;
+}
+
+header {
+    line-height:24px;
+    background-color:#53a1b8;
+    margin:30 30 30 30;
+    color:#FFFFFF;
+    font-family:Futura,"Trebuchet MS",Arial, sans-serif;
+    text-align:center;
+}
+
+header h1 {
+    padding:20px 20px 30px 20px;
+    font-size:60px;
+}
+
+header nav {
+    text-align:center;
+    background-color:#53a1b8;
+}
+
+header nav a {
+    color:#ffffff;
+    font-size:28px;
+    margin-right:150px;
+    padding:5px 5px 5px 5px;
+    text-align:center;
+    font-family:Futura,"Trebuchet MS",Arial, sans-serif;
+}
+
+header nav a:hover {
+    color:#cccccc;
 }
 
 article {
     background:#FFFFFF;
-    padding:1.5em 5% 0.625em;
+    padding:1em;
     color:#000000;
     font-family:Arial, Helvetica, sans-serif
-    font-size:0.9em;
+    font-size:12px;
+    text-align:left;
 }
 
 footer {
-    padding:0.625em 5%;
-    color:#FFFFFF;
-    font-family:Futura,"Trebuchet MS",Arial, sans-serif
-}
-
-/* Rules for Headings */
-
-header h1 {
-    margin:10px 0;
-    font-size:65px;
-    padding-bottom:5px;
-}
-
-article h1 {
-    font-family:Arial,Helvetica,sans-serif;
-    font-size:24px;
-    font-weight:500px;
-    margin:0 0 20px;
-    color:#53a1b8;
-}
-
-/* PARAGRAPHS */
-
-article p {
-    margin:16px 0;
-}
-
-/* LIST RULES */
-
-article ul {
-    margin:16px 0;
-}
-    
-article li {
-        list-style-type:circle;
-        margin-left:24px;
-        margin-bottom:12px;
-}
-
-nav a:link, nav a:visited {
+    color:#000000;
     font-family:Futura,"Trebuchet MS",Arial, sans-serif;
-    font-size:25px;
-    padding: 0 16px;
-    color:#FFFFFF;
-    text-decoration:underline;
-}
-
-nav a:hover, nav a:active {
-    color:#FFFFFF;
-    text-decoration:underline;
-}
-
-article a:hover, article a:active {
-    text-decoration:underline;
-}
-        
-footer a:link, footer a:visited {
-    font-family:Futura,"Trebuchet MS",Arial, sans-serif;
-    font-size:25px;
-    padding: 0 16px;
-    color:#FFFFFF;
-    text-decoration:underline;
+    text-align:center;
     
-        
+}
 
+footer p a {
+    font-size:16px
+}
+
+footer a {
+    color:#000000;
+    font-size:28px;
+    margin-right:150px;
+    padding:5px 5px 5px 5px;
+    text-align:center;
+    font-family:Futura,"Trebuchet MS",Arial, sans-serif;
+}
+
+footer a:hover {
+    color:#cccccc
+}
+
+        
     
     
