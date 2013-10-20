@@ -32,13 +32,14 @@ header {
     font-family:Futura,"Trebuchet MS",Arial, sans-serif;
     text-align:center;
     padding-bottom:10px;
-    margin:0 100px 0 100px
+    margin:0 100px 0 100px;
 }
 
 header h1 {
     padding:35px 20px 45px 20px;
     font-size:86px;
     font-weight:100;
+    line-height:86px;
 }
 
 header nav {
@@ -46,9 +47,11 @@ header nav {
     background-color:#53a1b8;
     padding-bottom:5px;
     padding-top:5px;
+    line-height:28px;
 }
 
 header nav a {
+    
     color:#ffffff;
     font-weight:300;
     text-decoration:none;
