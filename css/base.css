@@ -21,7 +21,7 @@ img {
     border:5px solid #454445;
     margin-left:5%;
     float:right;
-    width:45%
+    width:35%
 }
 
 header {
@@ -32,7 +32,7 @@ header {
     font-family:Futura,"Trebuchet MS",Arial, sans-serif;
     text-align:center;
     padding-bottom:10px;
-    margin:0 100px 0 100px;
+    margin:0 75px 0 75px;
 }
 
 header h1 {
@@ -56,7 +56,7 @@ header nav a {
     font-weight:300;
     text-decoration:none;
     font-size:28px;
-    margin-right:130px;
+    margin-right:75px;
     padding:5px 5px 5px 5px;
     text-align:center;
     font-family:Futura,"Trebuchet MS",Arial, sans-serif;
@@ -74,8 +74,8 @@ article {
     font-family:Arial, Helvetica, sans-serif;
     font-size:12px;
     text-align:left;
-    margin-left:100px;
-    margin-right:100px;
+    margin-left:75px;
+    margin-right:75px;
     padding:25px 35px 25px 35px;
     border:5px solid #454445;
 }
@@ -89,6 +89,15 @@ article h1 {
 
 article p{
     font-size:16px;
+}
+
+article a:link{
+    color:#53a1b8;
+    text-decoration:underline;
+}
+
+article a:visited{
+    color:purple;
 }
 
 article ul {
@@ -134,11 +143,46 @@ footer a:hover {
 
 @media screen and (max-width: 600px) {
     
-    h1,h2{
-        text-align:center
+    body {
+        padding: 3%;
     }
     
-}
-        
+    header {
+        margin-left:25px;
+        margin-right:25px;
+    }
+    
+    header h1 {
+        font-size:58px;
+        margin-bottom:0;
+    }
+    
+    header nav {
+        margin-top:0;
+    }
+    
+    header nav a {
+        font-size:30px;
+        display:inline;
+        margin-bottom:5px;
+        padding-left:60px;
+        text-align:center;
+    }
+    
+    nav {
+        width: 100%;
+    }
+    
+    article {
+        margin-left:25px;
+        margin-right:25px;
+    }
+    
+    #content {
+        clear: left;
+        margin-left: 0;
+        width: 100%;
+    }
+}        
     
     
